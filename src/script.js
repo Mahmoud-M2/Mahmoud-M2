@@ -21,44 +21,44 @@ const textureLoader = new THREE.TextureLoader();
 
 const textures = {
     floor: {
-        alpha: textureLoader.load('../src/textureFloor/alpha.jpg'),
-        color: textureLoader.load('../src/textureFloor/coast_sand_rocks_02_diff_1k.png'),
-        arm: textureLoader.load('../src/textureFloor/coast_sand_rocks_02_arm_1k.png'),
-        normal: textureLoader.load('../src/textureFloor/coast_sand_rocks_02_nor_gl_1k.png'),
-        displacement: textureLoader.load('../src/textureFloor/coast_sand_rocks_02_disp_1k.png')
+        alpha: textureLoader.load('./textureFloor/alpha.jpg'),
+        color: textureLoader.load('./textureFloor/coast_sand_rocks_02_diff_1k.png'),
+        arm: textureLoader.load('./textureFloor/coast_sand_rocks_02_arm_1k.png'),
+        normal: textureLoader.load('./textureFloor/coast_sand_rocks_02_nor_gl_1k.png'),
+        displacement: textureLoader.load('./textureFloor/coast_sand_rocks_02_disp_1k.png')
     },
     door: {
-        color: textureLoader.load('../src/textureDoor/Wood_Door_003_basecolor.jpg'),
-        height: textureLoader.load('../src/textureDoor/Wood_Door_003_height.png'),
-        normal: textureLoader.load('../src/textureDoor/Wood_Door_003_normal.jpg'),
-        ambientOcclusion: textureLoader.load('../src/textureDoor/Wood_Door_003_ambientOcclusion.jpg'),
-        metalness: textureLoader.load('../src/textureDoor/Material_1490.jpg'),
-        roughness: textureLoader.load('../src/textureDoor/Wood_Door_003_roughness.jpg')
+        color: textureLoader.load('./textureDoor/Wood_Door_003_basecolor.jpg'),
+        height: textureLoader.load('./textureDoor/Wood_Door_003_height.png'),
+        normal: textureLoader.load('./textureDoor/Wood_Door_003_normal.jpg'),
+        ambientOcclusion: textureLoader.load('./textureDoor/Wood_Door_003_ambientOcclusion.jpg'),
+        metalness: textureLoader.load('./textureDoor/Material_1490.jpg'),
+        roughness: textureLoader.load('./textureDoor/Wood_Door_003_roughness.jpg')
     },
     wall: {
-        color: textureLoader.load('../src/textureWall/castle_brick_broken_06_diff_1k.jpg'),
-        arm: textureLoader.load('../src/textureWall/castle_brick_broken_06_arm_1k.jpg'),
-        normal: textureLoader.load('../src/textureWall/castle_brick_broken_06_nor_gl_1k.jpg')
+        color: textureLoader.load('./textureWall/castle_brick_broken_06_diff_1k.jpg'),
+        arm: textureLoader.load('./textureWall/castle_brick_broken_06_arm_1k.jpg'),
+        normal: textureLoader.load('./textureWall/castle_brick_broken_06_nor_gl_1k.jpg')
     },
     roof: {
-        color: textureLoader.load('../src/textureRoof/clay_roof_tiles_diff_1k.jpg'),
-        arm: textureLoader.load('../src/textureRoof/clay_roof_tiles_arm_1k.jpg'),
-        normal: textureLoader.load('../src/textureRoof/clay_roof_tiles_nor_gl_1k.jpg')
+        color: textureLoader.load('./textureRoof/clay_roof_tiles_diff_1k.jpg'),
+        arm: textureLoader.load('./textureRoof/clay_roof_tiles_arm_1k.jpg'),
+        normal: textureLoader.load('./textureRoof/clay_roof_tiles_nor_gl_1k.jpg')
     },
     bush: {
-        color: textureLoader.load('../src/textureBush/coral_fort_wall_03_diff_1k.jpg'),
-        arm: textureLoader.load('../src/textureBush/coral_fort_wall_03_diff_1k.jpg'),
-        normal: textureLoader.load('../src/textureBush/coral_fort_wall_03_nor_gl_1k.jpg')
+        color: textureLoader.load('./textureBush/coral_fort_wall_03_diff_1k.jpg'),
+        arm: textureLoader.load('./textureBush/coral_fort_wall_03_diff_1k.jpg'),
+        normal: textureLoader.load('./textureBush/coral_fort_wall_03_nor_gl_1k.jpg')
     },
     grave: {
-        color: textureLoader.load('../src/textureGrave/plastered_stone_wall_diff_1k.jpg'),
-        arm: textureLoader.load('../src/textureGrave/plastered_stone_wall_arm_1k.jpg'),
-        normal: textureLoader.load('../src/textureGrave/plastered_stone_wall_nor_gl_1k.jpg')
+        color: textureLoader.load('./textureGrave/plastered_stone_wall_diff_1k.jpg'),
+        arm: textureLoader.load('./textureGrave/plastered_stone_wall_arm_1k.jpg'),
+        normal: textureLoader.load('./textureGrave/plastered_stone_wall_nor_gl_1k.jpg')
     },
     moonpng:{
-        color: textureLoader.load('../src/textureMoon/polystyrene_diff_4k.jpg'),
-        arm: textureLoader.load('../src/textureMoon/polystyrene_arm_4k.jpg'),
-        normal: textureLoader.load('../src/textureMoon/polystyrene_nor_gl_4k.jpg')
+        color: textureLoader.load('./textureMoon/polystyrene_diff_4k.jpg'),
+        arm: textureLoader.load('./textureMoon/polystyrene_arm_4k.jpg'),
+        normal: textureLoader.load('./textureMoon/polystyrene_nor_gl_4k.jpg')
 
     }
 };
